@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:id="@+id/cv_genres"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_below="@+id/iv_news_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="7dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/tv_cat_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
